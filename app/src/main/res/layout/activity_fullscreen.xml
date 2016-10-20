@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="@drawable/background"
+
     tools:context="com.example.the_dagger.learnit.activity.FullscreenActivity">
     
     <LinearLayout
@@ -16,11 +17,14 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_margin="8dp"
+            android:textColor="@color/md_white_1000"
             android:text="Your Score"
             android:textStyle="bold"
             android:textSize="36sp"/>
 
         <TextView
+            android:textColor="@color/md_white_1000"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="42dp"
@@ -30,6 +34,7 @@
             android:textSize="20dp"/>
 
         <TextView
+            android:textColor="@color/md_white_1000"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="42dp"

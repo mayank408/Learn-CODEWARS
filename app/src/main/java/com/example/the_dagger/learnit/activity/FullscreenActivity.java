@@ -116,7 +116,7 @@ public class FullscreenActivity extends AppCompatActivity {
         TextView correctScore = (TextView) findViewById(R.id.score);
         correctScore.setText("You got "+correctCounter+" out of 10 Questions Right!" );
         TextView amountWon = (TextView) findViewById(R.id.amountWon);
-        amountWon.setText("You won "+correctCounter*1.5+" ₹");
+        amountWon.setText("You won "+" ₹ " +correctCounter*5);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
@@ -202,7 +202,7 @@ private void delayedHide(int delayMillis) {
         }
 
 public void transferMoney(final View view) {
-        Toast.makeText(this, "Money Transferred To Paytm Wallet!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Money Transferred To Wallet!", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
         }

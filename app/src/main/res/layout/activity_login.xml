@@ -6,21 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:background="@color/colorPrimary"
+
+    android:background="@drawable/background"
     android:weightSum="1">
 
 
     <ImageView
-        android:layout_marginTop="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
         android:paddingBottom="50dp"
-        android:background="@drawable/download"
+        android:background="@mipmap/download"
         android:layout_width="wrap_content"
-        android:layout_height="92dp"
+        android:layout_height="120dp"
         android:layout_marginBottom="24dp"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.28" />
+        android:layout_weight="0.46" />
 
     <android.support.design.widget.TextInputLayout
         android:layout_marginTop="35dp"
@@ -34,6 +35,8 @@
         >
 
         <android.support.design.widget.TextInputEditText
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="email"
@@ -44,6 +47,8 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
