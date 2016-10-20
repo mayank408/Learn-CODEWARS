@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Maths",
+    "id": "food",
+    "theme": "green",
+    "quizzes": [
+      {
+        "type": "single-select",
+        "question": "What is the value of sin(30)",
+        "options": [
+          "1/2",
+          "3/2",
+          "1/3",
+          "1/4"
+        ],
+        "answer": 0
+  },
+  {
+    "type": "single-select",
+    "question": "Who was the one to discover zero?",
+    "options": [
+      "Newton",
+      "Jeff Goldblum",
+      "Aaryabhatta",
+      "Shrinivasan Ramanujahn"
+    ],
+    "answer": 2
+  },
+  {
+    "type": "single-select",
+    "question": "What is 2*4 + 2 ?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "21"
+    ],
+    "answer": 0
+  },
+  {
+    "type": "single-select",
+    "question": "Who was the mentor of Ramanujan",
+    "options": [
+      "A K vats",
+      "G H Hardy",
+      "Aaryabhatta",
+      "D S chawla"
+    ],
+    "answer": 1
+  },
+  {
+    "type": "single-select",
+    "question": "Which of these is prime",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "answer": 1
+  },
+  {
+    "type": "single-select",
+    "question": "Which is divisible by 8",
+    "options": [
+      "92",
+      "15",
+      "16",
+      "9"
+    ],
+    "answer": 2
+  },
+  {
+    "type": "single-select",
+    "question": "A clock seen through a mirror shows 8 o’clock. What is the correct time?",
+    "options": [
+      "8:00",
+      "4:00",
+      "12.20",
+      "12.40"
+    ],
+    "answer": 1
+  },
+  {
+    "type": "single-select",
+    "question": "If David’s age is 27 years old in 2011. What was his age in 2003?",
+    "options": [
+      "17 years",
+      "37 years",
+      "20 years",
+      "19 years"
+    ],
+    "answer": 3
+  },
+  {
+    "type": "single-select",
+    "question": "What is 7% equal to?",
+    "options": [
+      "0.007",
+      "0.07",
+      "0.7",
+      "7"
+    ],
+    "answer": 1
+  },
+  {
+    "type": "single-select",
+    "question": "0.05 × 0.09 × 5 = ___",
+    "options": [
+      "0.005",
+      "0.0225",
+      "0.025",
+      "0.225"
+    ],
+    "answer": 1
+  }
+],
+"scores": [
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+"solved": "false"
+},
+  {
+    "name": "Science",
+    "id": "knowledge",
+    "theme": "yellow",
+    "quizzes": [
+      {
+        "type": "single-select",
+        "question": "How many days are there in aleap year",
+        "options": [
+          "362",
+          "365",
+          "366",
+          "452"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Who invented bulb",
+        "options": [
+          "Edison",
+          "newton",
+          "harley",
+          "aryabhatt"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "single-select",
+        "question": "A clock seen through a mirror shows 8 o’clock. What is the correct time?",
+        "options": [
+          "8:00",
+          "4:00",
+          "12.20",
+          "12.40"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "single-select",
+        "question": "In which temperature density of water is heighest",
+        "options": [
+          "273K",
+          "254K",
+          "277K",
+          "234K"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "The SI unit of charge is ",
+        "options": [
+          "Ampere",
+          "Coulomb",
+          "Ohm",
+          "Volt"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "Very High Frequency (VHF) have __________ wavelengths.",
+        "options": [
+          "shorter",
+          "shortest",
+          "longer",
+          "longest"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "Long-sight defect could be corrected by using __________ lens.",
+        "options": [
+          "concave",
+          "convex",
+          "diverging",
+          "none of these"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "Deficiency of Vitamin-A results in",
+        "options": [
+          "night blindness",
+          "rickets",
+          "scurvy",
+          "hair fall"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "For a fixed mass of gass at constant temperature, if we decrease volume, the pressure will _________.",
+        "options": [
+         "also decrease",
+          "increase",
+          "remains constant",
+          "none of these"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "The lifespan of Red Blood Cells is __________ days.",
+        "options": [
+         "60",
+          "120",
+          "180",
+          "240"
+
+        ],
+        "answer": 2
+      }
+
+
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "History",
+    "id": "history",
+    "theme": "blue",
+    "quizzes": [
+      {
+        "type": "single-select",
+        "question": " What was the time period of Indus Civilization / Harappan Civilization ?",
+        "options": [
+          "2400 BC - 1700 BC",
+          "2400 BC - 1750 BC",
+          "2500 BC - 1700 BC",
+          "2500 BC - 1750 BC"
+        ],
+        "answer": 4
+      },
+      {
+        "type": "single-select",
+        "question": "Which was the largest site of Indus Civilization ?",
+        "options": [
+          "Mohenjodaro",
+          "Lothal",
+          "Chanhudaro",
+          "Dholavira"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": " Which two Indus sites found in Afghanistan ?",
+        "options": [
+          "121",
+          "81",
+          "16",
+          "169"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "single-select",
+        "question": "Which least number should be added to 2600 to make it a perfect square?",
+        "options": [
+          "Lothal and Daimabad",
+          "Shatughai and Dainabad",
+          "Shatughai and Mundigaq",
+          "Mundigaq and Daimabad"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "Vedic Culture was from",
+        "options": [
+          "1500 BC to 600 BC",
+          "1450 BC to 550 BC",
+          "1400 BC to 500 BC",
+          "1300 BC to 400 BC"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "single-select",
+        "question": "Which is the oldest text in the world ?",
+        "options": [
+          "Yajur Veda",
+          "Atharva Veda",
+          "Rig Veda",
+          "Sama Veda"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "How many Mandalas Rig Veda contains ?",
+        "options": [
+          "9 Mandalas",
+          "10 Mandalas",
+          "11 Mandalas",
+          "12 Mandalas"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "single-select",
+        "question": "Which veda is important for Indian Music ?",
+        "options": [
+          "Sama Veda",
+          "Yajur veda",
+          "Atharva Veda",
+          "Rig Veda"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "single-select",
+        "question": "Which Veda contains cure of diseases ?",
+        "options": [
+          "Sama Veda",
+          "Atharva Veda",
+          "Rig Veda",
+          "Yajur Veda"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Which of following was not a varna of Society ?",
+        "options": [
+          "Shudra",
+          "Vaisya",
+          "Kshatriya",
+          "Vaiswik"
+        ],
+        "answer": 1
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "Programming Fundamentals",
+    "id": "food",
+    "theme": "green",
+    "quizzes": [
+      {
+        "type": "single-select",
+        "question": "Who is father of C Language?",
+        "options": [
+          " Bjarne Stroustrup",
+          "James A. Gosling",
+          "Dennis Ritchie",
+          "Dr. E.F. Codd"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "C Language developed at _________?",
+        "options": [
+          "AT & T's Bell Laboratories of USA in 1972",
+
+
+          " AT & T's Bell Laboratories of USA in 1970",
+
+          " Sun Microsystems in 1973",
+
+          "Cambridge University in 1972"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "single-select",
+        "question": "What will the function rewind() do?",
+        "options": [
+          " Reposition the file pointer to a character reverse.",
+          "Reposition the file pointer stream to end of file.",
+          "Reposition the file pointer to begining of that line.",
+          "Reposition the file pointer to begining of file."
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Input/output function prototypes and macros are defined in which header file?",
+        "options": [
+          "conio.h",
+          "stdlib.h",
+          "stdio.h",
+          "dos.h"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Which standard library function will you use to find the last occurance of a character in a string in C?",
+        "options": [
+          "strnchar()",
+          "strchar()",
+          "strrchar()",
+          "strrchr()"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Who is father of C Language?",
+        "options": [
+          " Bjarne Stroustrup",
+          "James A. Gosling",
+          "Dennis Ritchie",
+          "Dr. E.F. Codd"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "What is stderr ?",
+        "options": [
+          "standard error",
+          "standard error types",
+          "standard error streams",
+          "standard error definitions"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "What will the function randomize() do in Turbo C under DOS?",
+        "options": [
+          "returns a random number.",
+          "returns a random number generator in the specified range.",
+          "returns a random number generator with a random value based on time.",
+          "return a random number with a given seed value."
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Which of the following is the correct order of evaluation for the below expression?z = x + y * z / 4 % 2 - 1",
+        "options": [
+          "* / % + - =",
+          "= * / % + -",
+          "/ * % - + =",
+          "* % / - + ="
+        ],
+        "answer": 3
+      },
+      {
+        "type": "single-select",
+        "question": "Which of the following is the correct usage of conditional operators used in C?",
+        "options": [
+          "a>b ? c=30 : c=40;",
+          "a>b ? c=30;",
+          "max = a>b ? a>c?a:c:b>c?b:c",
+          "return (a>b)?(a:b)"
+        ],
+        "answer": 3
+      }
+    ],
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solved": "false"
+  }
+
+]

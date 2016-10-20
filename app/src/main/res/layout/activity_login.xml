@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/colorPrimary"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:paddingBottom="50dp"
+        android:background="@drawable/download"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.28" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="35dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="@color/md_white_1000"
+        app:passwordToggleTint="@color/md_white_1000"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:textColorHint="#FFFFFF"
+            android:shadowColor="@color/md_white_1000"
+            android:textColor="@color/md_white_1000"
+            android:backgroundTint="@color/md_white_1000"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:errorEnabled="true"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="@color/md_white_1000"
+        app:passwordToggleTint="@color/md_white_1000">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:shadowColor="@color/md_white_1000"
+            android:textColor="@color/md_white_1000"
+            android:backgroundTint="@color/md_white_1000"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/Loginbutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:text="Login"
+        android:background="@drawable/rounded"
+        android:textColor="@color/colorPrimary"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/sign_up"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Sign Up"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/rounded"/>
+
+
+</LinearLayout>
